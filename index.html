@@ -37,27 +37,27 @@ hr{border-top:1px solid #ccc}
 }</style>
 </head>
 <body>
-<div id="gate" style="display:flex;align-items:center;justify-content:center;min-height:100vh;position:fixed;top:0;left:0;right:0;bottom:0;background:#1a1a1a;z-index:99999;flex-direction:column;padding:20px;">
-<div style="text-align:center;max-width:420px;background:#fff;padding:40px 32px;border-radius:16px;box-shadow:0 8px 40px rgba(0,0,0,0.3);">
-<h1 style="font-family:'Playfair Display',Georgia,serif;font-size:1.6em;color:#1a1a1a;margin-bottom:6px;">Nik's 40th Birthday</h1>
-<p style="color:#c0392b;font-weight:600;margin-bottom:4px;">Spain 2027</p>
-<p style="color:#666;font-size:0.85em;margin-bottom:24px;">Organized by Phoenix Travel</p>
-<p style="font-size:0.9em;color:#333;margin-bottom:20px;">Enter the access code provided by your travel planner to view your itinerary.</p>
+<div id="gate" style="display:flex;align-items:center;justify-content:center;min-height:100vh;position:fixed;top:0;left:0;right:0;bottom:0;background:#1a1a1a;z-index:99999;flex-direction:column;padding:16px;overflow-y:auto;">
+<div style="text-align:center;width:100%;max-width:400px;background:#fff;padding:32px 24px;border-radius:16px;box-shadow:0 8px 40px rgba(0,0,0,0.3);">
+<h1 style="font-family:'Playfair Display',Georgia,serif;font-size:1.4em;color:#1a1a1a;margin-bottom:6px;">Nik's 40th Birthday</h1>
+<p style="color:#c0392b;font-weight:600;margin-bottom:4px;font-size:0.9em;">Spain 2027</p>
+<p style="color:#666;font-size:0.8em;margin-bottom:20px;">Organized by Phoenix Travel</p>
+<p style="font-size:0.85em;color:#333;margin-bottom:16px;line-height:1.5;">Enter the access code provided by your travel planner to view your itinerary.</p>
 <input type="password" id="pw" placeholder="Enter access code" style="width:100%;padding:14px 16px;border:2px solid #ddd;border-radius:8px;font-size:16px;text-align:center;margin-bottom:12px;" onkeypress="if(event.key==='Enter')checkPw()">
 <button onclick="checkPw()" style="width:100%;padding:14px;background:#c0392b;color:#fff;border:none;border-radius:8px;font-size:1em;font-weight:600;cursor:pointer;">Access Itinerary</button>
 <p id="err" style="color:#c0392b;font-size:0.85em;margin-top:10px;display:none;">Incorrect code. Contact Phoenix Travel for access.</p>
 <div style="margin-top:20px;padding:16px;background:#fdf6f6;border-radius:8px;">
 <p style="font-size:0.8em;font-weight:600;color:#c0392b;margin-bottom:12px;text-align:center;">PAYMENT OPTIONS</p>
-<div style="display:flex;gap:10px;margin-bottom:14px;">
-<div style="flex:1;background:#fff;border:2px solid #c0392b;border-radius:8px;padding:12px;text-align:center;">
-<p style="font-size:1.3em;font-weight:700;color:#c0392b;margin-bottom:2px;">$75</p>
-<p style="font-size:0.75em;color:#666;">Deposit Now</p>
-<p style="font-size:0.65em;color:#999;margin-top:4px;">Remaining $125 due by 8/31</p>
+<div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;">
+<div style="flex:1;min-width:130px;background:#fff;border:2px solid #c0392b;border-radius:8px;padding:10px 8px;text-align:center;">
+<p style="font-size:1.2em;font-weight:700;color:#c0392b;margin-bottom:2px;">$75</p>
+<p style="font-size:0.7em;color:#666;">Deposit Now</p>
+<p style="font-size:0.6em;color:#999;margin-top:4px;">$125 due by 8/31</p>
 </div>
-<div style="flex:1;background:#c0392b;border:2px solid #c0392b;border-radius:8px;padding:12px;text-align:center;">
-<p style="font-size:1.3em;font-weight:700;color:#fff;margin-bottom:2px;">$200</p>
-<p style="font-size:0.75em;color:#fff;">Pay in Full</p>
-<p style="font-size:0.65em;color:rgba(255,255,255,0.7);margin-top:4px;">No future payments needed</p>
+<div style="flex:1;min-width:130px;background:#c0392b;border:2px solid #c0392b;border-radius:8px;padding:10px 8px;text-align:center;">
+<p style="font-size:1.2em;font-weight:700;color:#fff;margin-bottom:2px;">$200</p>
+<p style="font-size:0.7em;color:#fff;">Pay in Full</p>
+<p style="font-size:0.6em;color:rgba(255,255,255,0.7);margin-top:4px;">No future payments</p>
 </div>
 </div>
 <p style="font-size:0.85em;color:#333;line-height:1.8;text-align:center;">
