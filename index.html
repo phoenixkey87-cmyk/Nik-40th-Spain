@@ -46,10 +46,18 @@ hr{border-top:1px solid #ccc}
 <input type="password" id="pw" placeholder="Enter access code" style="width:100%;padding:14px 16px;border:2px solid #ddd;border-radius:8px;font-size:16px;text-align:center;margin-bottom:12px;" onkeypress="if(event.key==='Enter')checkPw()">
 <button onclick="checkPw()" style="width:100%;padding:14px;background:#c0392b;color:#fff;border:none;border-radius:8px;font-size:1em;font-weight:600;cursor:pointer;">Access Itinerary</button>
 <p id="err" style="color:#c0392b;font-size:0.85em;margin-top:10px;display:none;">Incorrect code. Contact Phoenix Travel for access.</p>
-<p style="margin-top:20px;font-size:0.8em;color:#999;">📞 (314) 307-4921 · key.phoenixtravel@gmail.com</p>
+<div style="margin-top:20px;padding:16px;background:#fdf6f6;border-radius:8px;text-align:left;">
+<p style="font-size:0.8em;font-weight:600;color:#c0392b;margin-bottom:8px;text-align:center;">PAY DEPOSIT TO GET ACCESS</p>
+<p style="font-size:0.85em;color:#333;line-height:1.8;text-align:center;">
+<a href="https://cash.app/$PhoenixTravel" target="_blank" style="color:#c0392b;font-weight:600;text-decoration:none;">💳 Cash App — $PhoenixTravel</a><br>
+<a href="https://venmo.com/PhoenixTravel" target="_blank" style="color:#c0392b;font-weight:600;text-decoration:none;">💙 Venmo — @PhoenixTravel</a><br>
+<a href="https://paypal.me/ohphoenix" target="_blank" style="color:#c0392b;font-weight:600;text-decoration:none;">🅿️ PayPal — @ohphoenix</a>
+</p>
+<p style="font-size:0.75em;color:#666;margin-top:8px;text-align:center;">Include "Nik Spain Itinerary" in memo · $75 deposit</p>
+</div>
+<p style="margin-top:16px;font-size:0.8em;color:#999;">📞 <a href="tel:3143074921" style="color:#999;text-decoration:none;">(314) 307-4921</a> · <a href="mailto:key.phoenixtravel@gmail.com" style="color:#999;text-decoration:none;">key.phoenixtravel@gmail.com</a></p>
 </div>
 </div>
-<script>
 function checkPw(){var p=document.getElementById('pw').value;if(p==='NIK40SPAIN'||p==='nik40spain'){document.getElementById('gate').style.display='none';}else{document.getElementById('err').style.display='block';}}
 </script>
 <div id="content" style="display:block;">
